@@ -29,7 +29,7 @@
 					<tr class="contentbox">
 						<td class="content">
 							[장하오]님 회원 가입을 축하드립니다!<br>
-							가입하신 아이디는 [ZhanHao]입니다.
+							가입하신 아이디는 [ZhangHao]입니다.
 						</td>
 					</tr>
 				</table>
