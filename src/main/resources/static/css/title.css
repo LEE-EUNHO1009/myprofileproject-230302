@@ -1,15 +1,37 @@
 @charset "UTF-8";
-
+body{
+	margin: 0;
+	padding: 0;
+}
 span.title01{
 	font-size: 70px;
-	color: #0A2647;
+	color: #645CBB;
 	font-family: Arial;  
 	font-weight: bold;	
 }
 
 span.title02 {
 	font-size: 20px;
-	color: #1f76e0;
+	color: #EBC7E6;
 	font-family: Arial;
 	font-weight: normal;
+}
+span.title03 {
+	font-size: 60px;
+	color: #645CBB;
+	font-family: Arial;
+	font-weight: bold;
+}
+span.title04 {
+	font-size: 40px;
+	color: #A084DC;
+	font-family: Arial;
+	font-weight: bold;
+}
+td.skillbox{
+	background-color: #BFACE2; 
+}
+td.picbox{
+	background-color: #645CBB; 
+	text-align: center; /*이미지 가운데 정렬*/
 }
