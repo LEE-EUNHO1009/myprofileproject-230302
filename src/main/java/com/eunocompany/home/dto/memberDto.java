@@ -6,6 +6,7 @@ public class memberDto {
 	private String mname;
 	private String memail;
 	private String mdate;
+	//dto 추가
 	
 	public memberDto() {
 		super();
