@@ -17,5 +17,24 @@ input.input_box01 {
 	
 }
 input.button01{
-	
+	border:2px solid #ffffff;
+	background-color: #A084DC;
+	width: 180px;
+	height : 40px;
+	padding: 5px;
+	font-family: malgun;
+	font-size: 20px;
+	color: #ffffff;
+	cursor:pointer;
+}
+input.button01:hover{
+	border:2px solid #ffffff;
+	background-color: #EBC7E6;
+	width: 180px;
+	height : 40px;
+	padding: 5px;
+	font-family: malgun;
+	font-size: 20px;
+	color: #ffffff;
+
 }

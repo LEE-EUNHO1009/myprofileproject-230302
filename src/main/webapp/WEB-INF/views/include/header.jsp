@@ -21,7 +21,7 @@
 			<%
 				if(sessionId == null) {
 			%>			
-			<td class="headertext01"><a href="#">LOGIN</a></td>
+			<td class="headertext01"><a href="login">LOGIN</a></td>
 			<%
 				} else {
 			%>
@@ -42,7 +42,7 @@
 				}
 			%>
 			<td class="margin02">&nbsp;</td>
-			<td class="headertext01"><a href="#">PROFILE</a></td>
+			<td class="headertext01"><a href="profile">PROFILE</a></td>
 			<td class="margin02">&nbsp;</td>
 			<td class="headertext01"><a href="#">QUESTION</a></td>
 			<td class="margin02">&nbsp;</td>

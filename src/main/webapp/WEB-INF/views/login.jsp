@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/title.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/content.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/login.css">
-<title>Insert title here</title>
+
+<title>** GYOJIN's PROFILE **</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
@@ -27,9 +28,9 @@
 			<td align="center">
 				<table width="80%" border="0" cellspacing="0" cellpadding="10">
 					<tr class="contentbox">
-						<td class="contentbox">
+						<td class="content">
 							<center>
-							<table border="0" cellspacing="0" cellpadding="10">
+							<table border="0" cellspacing="0" cellpadding="10">	
 								<form action="loginOk" method="post">
 									<tr>
 										<td align="right" class="input_text01">아 이 디 : </td>
@@ -37,19 +38,18 @@
 									</tr>
 									<tr>
 										<td align="right" class="input_text01">비밀번호 : </td>
-										<td><input class="input_box01" type="text" name="mpw"></td>
+										<td><input class="input_box01" type="password" name="mpw"></td>
 									</tr>
 									<tr>
-										<td colspan="2">
-										<input class="button01" type="submit" value="로그인">
-										<input class="button01" type="button" value="회원가입" onclick="javascript:window.location='join'">
-										</td>
+										<td colspan="2" align="center">
+											<input class="button01" type="submit" value="로그인">
+											<input class="button01" type="button" value="회원가입" onclick="javascript:window.location='join'">
+										</td>										
 									</tr>
 								</form>
 							</table>
 							</center>
 						</td>
-						
 					</tr>
 				</table>
 			</td>
