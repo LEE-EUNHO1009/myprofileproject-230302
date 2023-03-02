@@ -10,10 +10,10 @@
 </head>
 <body>
 	<%
-		String sessionId = (String) session.getAttribute("memberId"); 
-		//로그인 성공시 memberId 이름으로 아이디가 set	
+		String sessionId = (String) session.getAttribute("memberId");
+		//로그인 성공시 memberId 이름으로 아이디가 세션에 set	
 	%>
-	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">		
 		<tr class="header01">
 			<td class="margin01">&nbsp;</td><!-- 여백 -->
 			<td class="headertext01"><a href="index">HOME</a></td>
@@ -25,7 +25,7 @@
 			<%
 				} else {
 			%>
-			<td class="headertext01"><a href="logout">LOOUT</a></td>
+			<td class="headertext01"><a href="#">LOGOUT</a></td>
 			<%
 				}
 			%>
@@ -37,21 +37,21 @@
 			<%
 				} else {
 			%>
-			<td class="headertext01"><a href="modify">MODIFY</a></td>
+			<td class="headertext01"><a href="#">MODIFY</a></td>
 			<%
 				}
 			%>
 			<td class="margin02">&nbsp;</td>
 			<td class="headertext01"><a href="profile">PROFILE</a></td>
 			<td class="margin02">&nbsp;</td>
-			<td class="headertext01"><a href="#">QUESTION</a></td>
+			<td class="headertext01"><a href="question">QUESTION</a></td>
 			<td class="margin02">&nbsp;</td>
-			<td class="headertext01"><a href="#">CONTACT</a></td>
+			<td class="headertext01"><a href="contact">CONTACT</a></td>
 			<td class="margin02">&nbsp;</td>
-		</tr>
+		</tr>		
 		<tr class="header02">
 			<td>&nbsp;</td>
-		</tr>
+		</tr>	
 	</table>
 </body>
 </html>

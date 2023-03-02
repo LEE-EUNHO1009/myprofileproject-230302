@@ -34,28 +34,24 @@
 								<form action="questionOk" method="post">
 									<tr>
 										<td align="right" class="input_text01">아 이 디 : </td>
-										<td><input class="input_box01" type="text" name="mid"></td>
+										<td><input class="input_box01" type="text" name="qid"></td>
 									</tr>
 									<tr>
-										<td align="right" class="input_text01">비밀번호 : </td>
-										<td><input class="input_box01" type="password" name="mpw"></td>
+										<td align="right" class="input_text01">글 쓴 이 : </td>
+										<td><input class="input_box01" type="text" name="qname"></td>
 									</tr>
 									<tr>
-										<td align="right" class="input_text01">비밀번호 체크 : </td>
-										<td><input class="input_box01" type="password" name="mpw_check"></td>
-									</tr>
-									<tr>
-										<td align="right" class="input_text01">이  름 : </td>
-										<td><input class="input_box01" type="text" name="mname"></td>
-									</tr>
+										<td align="right" valign="top" class="input_text01">질문내용 : </td>
+										<td><textarea class="textarea01" rows="5" cols="30" name="qcontent"></textarea></td>
+									</tr>									
 									<tr>
 										<td align="right" class="input_text01">이 메 일 : </td>
-										<td><input class="input_box01" type="text" name="memail"></td>
+										<td><input class="input_box01" type="text" name="qemail"></td>
 									</tr>
 									<tr>
 										<td colspan="2" align="center">
-											<input class="button01" type="submit" value="가입완료">
-											<input class="button01" type="button" value="로그인" onclick="javascript:window.location='login'">
+											<input class="button01" type="submit" value="질문완료">
+											<input class="button01" type="button" value="글목록" onclick="javascript:window.location='list'">
 										</td>										
 									</tr>
 								</form>

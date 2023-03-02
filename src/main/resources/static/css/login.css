@@ -38,3 +38,12 @@ input.button01:hover{
 	color: #ffffff;
 
 }
+textarea.textarea01 {
+	border: 1px solid #A084DC;
+	background-color: #ffffff;
+	width: 250px;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 20px;
+	color: #002c57;
+}
