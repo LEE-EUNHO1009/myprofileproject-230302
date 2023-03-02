@@ -31,7 +31,7 @@
 						<td class="content">
 							<center>
 							<table border="0" cellspacing="0" cellpadding="10">	
-								<form action="loginOk" method="post">
+								<form action="joinOk" method="post">
 									<tr>
 										<td align="right" class="input_text01">아 이 디 : </td>
 										<td><input class="input_box01" type="text" name="mid"></td>
@@ -41,9 +41,21 @@
 										<td><input class="input_box01" type="password" name="mpw"></td>
 									</tr>
 									<tr>
+										<td align="right" class="input_text01">비밀번호 체크 : </td>
+										<td><input class="input_box01" type="password" name="mpw_check"></td>
+									</tr>
+									<tr>
+										<td align="right" class="input_text01">이  름 : </td>
+										<td><input class="input_box01" type="text" name="mname"></td>
+									</tr>
+									<tr>
+										<td align="right" class="input_text01">이 메 일 : </td>
+										<td><input class="input_box01" type="text" name="memail"></td>
+									</tr>
+									<tr>
 										<td colspan="2" align="center">
-											<input class="button01" type="submit" value="로그인">
-											<input class="button01" type="button" value="회원가입" onclick="javascript:window.location='join'">
+											<input class="button01" type="submit" value="가입완료">
+											<input class="button01" type="button" value="로그인" onclick="javascript:window.location='login'">
 										</td>										
 									</tr>
 								</form>

@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/title.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/content.css">
 
-<title>** GYOJIN's PROFILE **</title>
+<title>** EUNHO's PROFILE **</title>
 </head>
 <body>
 	<%@ include file="include/header.jsp" %>
